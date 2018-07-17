@@ -5,16 +5,14 @@
   outline-color: $green;
 }
 
-// Label Styling -- Delete this if you are not using a label
-label {
+.form__label {
   font-family: $secondary-font;
   color: $green;
   display: block;
   padding-bottom: $spacer-xs;
 }
 
-// Basic Form Input Styling
-input {
+.form__input {
   font-family: $secondary-font;
   background-color: $gray;
   color: $green;
@@ -39,8 +37,7 @@ input {
   color: $pink;
 }
 
-// Select Form Input Styling
-select {
+.form__select {
   font-family: $secondary-font;
   background-color: $gray;
   color: $green;

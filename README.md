@@ -1,13 +1,27 @@
-# Project 1 - Part 2
+# Project 2 - StyleList
 
-## Links
-- [Web Hosting](http://caitlinkuiper.com/project-1_part-2_kuiper-caitlin/)
-- [GitHub Repository](https://github.com/cmkuiper/project-1_part-2_kuiper-caitlin)
+#### Link to repository
+[GitHub Repository](https://github.com/cmkuiper/project-2_kuiper-caitlin)
 
-## Resources
-- [W3Schools CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) and [CSS Tricks Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/): I used these resources to get a better understanding about how to use Flexbox for my layout.
-- 6/12 and 6/19 class lectures: I referenced the class lectures to complete my color cards and chips.
+#### Link to website
+[Not yet available](www.thisisyourwebsite.com)
+<!-- Edit this for Project 2 - Part 3 -->
 
-## Comments
-- I had some issues with my nesting on my form elements. I don't think I named my classes correctly because my styles wouldn't apply when nested.
-- The ready-made pattern library template was super helpful, but I also think I would have learned a lot if I had to set up the files myself. In the future, I would suggest creating an assignment just around setting up the files for this project.
+#### Instructions on how to view
+1. `git clone` the repository to view it locally.
+2. Use `sass --watch sass:css --style compressed` to get sass started.
+
+---
+
+## Project 2 - Part 3
+
+#### Resources
+I did not use any additional resources, aside from class notes, for this project.
+
+#### Deductions
+I reviewed the list of deductions for this project and in the syllabus.
+
+#### Comments
+I removed my alert styles because my website design does not include the alert feature.
+
+---
