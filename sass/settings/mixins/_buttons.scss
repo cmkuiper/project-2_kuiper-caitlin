@@ -1,0 +1,29 @@
+// Buttons Mixins Stylesheet
+
+@mixin button($background-value, $color-value) {
+  background-color: $background-value;
+  color: $color-value;
+}
+
+@mixin button--hover ($background-value) {
+  background-color: $background-value;
+  transition: .2s;
+}
+
+@mixin button--secondary ($background-value, $color-value, $border-color) {
+  background-color: $background-value;
+  color: $color-value;
+  border: 2px solid $border-color;
+}
+
+@mixin button--secondary--hover ($background-value, $color-value, $border-color) {
+  background-color: $background-value;
+  color: $color-value;
+  border: 2px solid $border-color;
+  transition: .2s;
+}
+
+@mixin button--disabled ($background-value, $color-value) {
+  background-color: $background-value;
+  color: $color-value;
+}

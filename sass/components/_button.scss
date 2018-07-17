@@ -4,8 +4,7 @@
 
   &--primary {
     @include font-type($secondary-font, normal, 400);
-    background-color: $green;
-    color: white;
+    @include button($green, $white);
     height: 50px;
     width: 200px;
     display: inline-flex;
@@ -13,16 +12,13 @@
     justify-content: center;
 
     &:hover {
-      background-color: darken($green, 10%);
-      transition: .2s;
+      @include button(darken($green, 10%), $white);
     }
   }
 
   &--secondary {
     @include font-type($secondary-font, normal, 400);
-    background-color: $white;
-    color: $green;
-    border: 2px solid $green;
+    @include button--secondary($white, $green, $green);
     height: 50px;
     width: 196px;
     display: inline-flex;
@@ -30,18 +26,13 @@
     justify-content: center;
 
     &:hover {
-      background-color: darken($green, 10%);
-      transition: .2s;
-      color: white;
-      border: 2px solid darken($green, 10%);
-
+      @include button--secondary--hover(darken($green, 10%), $white, darken($green, 10%))
     }
   }
 
   &--disabled {
     @include font-type($secondary-font, normal, 400);
-    background-color: $gray;
-    color: $white;
+    @include button--disabled($gray, $white);
     height: 50px;
     width: 200px;
     display: inline-flex;
