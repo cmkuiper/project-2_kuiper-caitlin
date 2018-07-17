@@ -1,0 +1,18 @@
+// Typography Mixin Settings Stylesheet
+// ========================================
+
+// Font Styles
+@mixin font-type($type, $style, $weight) {
+  font-family: $type;
+  font-style:  $style;
+  font-weight: $weight;
+}
+
+// Text Colors
+@each $name, $tones in $type-colors {
+  $tone-color: nth($tones, 1);
+
+  .text--#{$name} {
+    color: $tone-color;
+  };
+}

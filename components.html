@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>StyleList — Pattern Library Components</title>
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/mzk7koy.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link type="images/png" href="images/checkbox.png" rel="shortcut icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="body background--white">
+  <header class="header">
+    <img src="images/logo2.png" title="StyleList" alt="StyleList" class="header__logo"/>
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__list__item">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="header__list__item">
+          <a href="elements.html">Elements</a>
+        </li>
+        <li class="header__list__item">
+          <a href="components.html">Components</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+    <main class="main">
+      <section class="main__section">
+        <h2>Components</h2>
+        <!-- This is where your alerts go -->
+        <section class="main__section">
+          <h3>Alerts</h3>
+          <div class="item-container">
+            <div class="alert--success">
+              Success! You’ve got serious style.
+            </div>
+          </div>
+          <div class="item-container">
+            <div class="alert--error">
+              Oh snap! Something went wrong.
+            </div>
+          </div>
+          <div class="item-container">
+            <div class="alert--notification">
+              Here's some general information about StyleList.
+            </div>
+          </div>
+        </section>
+        <!-- This is where your buttons go -->
+        <section class="main__section">
+          <h3>Buttons</h3>
+          <div class="main__section--buttons">
+            <div class="item-container">
+              <div class="button--primary">
+                Primary Button
+              </div>
+            </div>
+            <div class="item-container">
+              <div class="button--secondary">
+                Secondary Button
+              </div>
+            </div>
+            <div class="item-container">
+              <div class="button--disabled">
+                Disabled Button
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- This is where your chip goes -->
+        <section class="main__section">
+          <h3>Chips</h3>
+          <div class="main__section--chips">
+            <div class="item-container">
+              <div class="chip">
+                <img src="images/avatar.png" alt="Avatar" title="Avatar" class="chip__avatar"/>
+                <div class="chip__text--container">
+                  <div class="chip__text--title">
+                    Caitlin Kuiper
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item-container">
+              <div class="chip">
+                <img src="images/avatar.png" alt="Avatar" title="Avatar" class="chip__avatar"/>
+                <div class="chip__text--container">
+                  <div class="chip__text--title">
+                    Caitlin Kuiper
+                  </div>
+                  <div class="chip__text--description">
+                    caitlinkuiper@ufl.edu
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- This is where your form elements go -->
+        <section class="main__section">
+          <h3>Form Elements</h3>
+            <div class="item-container">
+              <label for="name">Full Name</label>
+    						<input type="text" name="name" id="name" placeholder="Your name"/>
+            </div>
+            <div class="item-container form__item--error">
+              <label for="email" class="form__item--label">Please enter a valid email!</label>
+                <input type="email" name="email" id="email" placeholder="Your email">
+            </div>
+            <div class="item-container">
+              <label for="size">Size</label>
+                <select class="size" name="size" id="size">
+                  <option value="0">0</option>
+                  <option value="2">2</option>
+                  <option value="4">4</option>
+                  <option value="6">6</option>
+                  <option value="8">8</option>
+                  <option value="10">10</option>
+                  <option value="12">12</option>
+                  <option value="14">14</option>
+                </select>
+            </div>
+        </section>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__p">&copy;2018 Caitlin Kuiper</p>
+    </footer>
+  </body>
+</html>

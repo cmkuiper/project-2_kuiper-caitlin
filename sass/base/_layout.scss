@@ -1,0 +1,140 @@
+// Base Layout Stylesheet
+// This is where your layout of the project will go
+// ========================================
+
+.body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+ &__logo {
+   padding: $spacer-lg;
+   max-width: 300px;
+ }
+
+ &__list {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+
+   @include media($medium) {
+     margin-right: $spacer-s;
+   }
+
+   @include media($large) {
+     margin-right: $spacer-m;
+   }
+ }
+
+ &__list__item {
+   padding: $spacer-m;
+ }
+
+ @include media($medium) {
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: $spacer-m;
+ }
+}
+
+.main {
+  flex: 1;
+  padding: $spacer-m;
+
+  &__section {
+    margin: $reset-0 $reset-0 $spacer-xxl;
+  }
+}
+
+.item-container {
+    margin: $spacer-m;
+}
+
+.headers--inset {
+  margin: $spacer-s;
+}
+
+.colors__list {
+  display: flex;
+  flex-direction: column;
+
+  @include media($medium) {
+    flex-direction: row;
+  }
+}
+
+.colors__list__item {
+  text-align: center;
+  padding-top: $spacer-xs;
+}
+
+.colors--green, .colors--blue, .colors--yellow, .colors--black, .colors--gray, .colors--white, .colors--mint, .colors--pink {
+  padding: $spacer-m;
+  height: 100px;
+  width: 200px;
+}
+
+.colors--green {
+  background-color: $green;
+}
+
+.colors--blue {
+  background-color: $blue;
+}
+
+.colors--yellow {
+  background-color: $yellow;
+}
+
+.colors--black {
+  background-color: $black;
+}
+
+.colors--gray {
+  background-color: $gray;
+}
+
+.colors--white {
+  background-color: $white;
+}
+
+.colors--mint {
+  background-color: $mint;
+}
+
+.colors--pink {
+  background-color: $pink;
+}
+
+.main__section--buttons {
+  @include media($medium) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.main__section--chips {
+  @include media($medium) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.footer {
+  background-color: $green;
+  height: 50px;
+  text-align: center;
+  position: sticky;
+
+  &__p {
+    color: $gray;
+  }
+}
