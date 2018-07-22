@@ -19,7 +19,7 @@
   &--secondary {
     @include font-type($secondary-font, normal, 400);
     @include button--secondary($white, $green, $green);
-    height: 50px;
+    height: 46px;
     width: 196px;
     display: inline-flex;
     align-items: center;
