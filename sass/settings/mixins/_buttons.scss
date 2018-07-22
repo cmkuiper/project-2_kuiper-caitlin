@@ -3,6 +3,7 @@
 @mixin button($background-value, $color-value) {
   background-color: $background-value;
   color: $color-value;
+  cursor: pointer;
 }
 
 @mixin button--hover ($background-value) {
@@ -14,6 +15,7 @@
   background-color: $background-value;
   color: $color-value;
   border: 2px solid $border-color;
+  cursor: pointer;
 }
 
 @mixin button--secondary--hover ($background-value, $color-value, $border-color) {
@@ -26,4 +28,5 @@
 @mixin button--disabled ($background-value, $color-value) {
   background-color: $background-value;
   color: $color-value;
+  cursor: not-allowed;
 }
