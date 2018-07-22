@@ -13,12 +13,26 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
+  box-shadow:0px .5px 12px $gray;
+
 
  &__logo {
    padding: $spacer-lg;
    width: 50%;
    max-width: 300px;
  }
+
+
+  &__button {
+
+    &--primary {
+      margin-bottom: $spacer-s;
+    }
+
+    &--secondary {
+      margin-bottom: $spacer-s;
+    }
+  }
 
  &__list {
    display: flex;
@@ -46,10 +60,13 @@
  }
 }
 
+.main {
+  flex: 1;
+}
+
 .footer {
   background-color: $green;
   height: 50px;
-  position: sticky;
 
   &__p {
   }
