@@ -4,7 +4,7 @@
 [GitHub Repository](https://github.com/cmkuiper/project-2_kuiper-caitlin)
 
 #### Link to website
-[Website Link](www.caitlinkuiper.com/advweb2/project2)
+[Website Link](http://www.caitlinkuiper.com/advweb2/project2)
 <!-- Edit this for Project 2 - Part 3 -->
 
 #### Instructions on how to view
