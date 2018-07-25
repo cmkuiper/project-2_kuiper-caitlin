@@ -1,6 +1,10 @@
 // Hamburger Menu
-jQuery(document).ready(function( $ ) {
-            $("#menu").mmenu({
-               "slidingSubmenus": false
-            });
-         });
+$(document).ready(function() {
+    $("#menu").mmenu();
+
+    $("#menu-close").on('click', function(e){
+      e.preventDefault();
+      $("#menu").hide(3000);
+    })
+
+ });
