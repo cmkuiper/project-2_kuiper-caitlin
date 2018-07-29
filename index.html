@@ -5,36 +5,38 @@
     <title>Online Style Wish List | StyleList</title>
     <link href="css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/mzk7koy.css" />
-    <link rel="stylesheet" href="css/jquery.mmenu.all.css" />
-    <link href="dist/hamburger.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/drawer.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
     <link type="images/png" href="images/checkbox.png" rel="shortcut icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
-  <body class="body background--white">
+  <body class="body background--white drawer drawer--right">
 
-    <header class="header">
+    <header class="header" role="banner">
       <a href="index.html"><img src="images/logo2.png" title="StyleList" alt="StyleList" class="header__logo"/></a>
-      <div class="button--primary header__button--primary">SIGN UP</div>
-      <div class="button--secondary header__button--secondary">LOG IN</div>
-      <a href="#menu">Open the menu</a>
-      <nav class="header__nav" id="menu">
-        <ul class="header__list">
-          <li class="header__list__item">
-            <button id="menu-close">Close the menu</button>
-          </li>
-          <li class="header__list__item">
-            <a href="index.html">Home</a>
-          </li>
-          <li class="header__list__item">
-            <a href="#about">About</a>
-          </li>
-          <li class="header__list__item">
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+
+      <button type="button" class="drawer-toggle drawer-hamburger">
+        <span class="sr-only">toggle navigation</span>
+        <span class="drawer-hamburger-icon"></span>
+      </button>
+        <nav class="header__nav drawer-nav">
+          <a href="index.html"><img src="images/logo2.png" title="StyleList" alt="StyleList" class="header__logo"/></a>
+          <ul class="header__list drawer-menu">
+            <li class="header__list__item">
+              <a class="drawer-menu-item" href="index.html">Home</a>
+            </li>
+            <li class="header__list__item">
+              <a class="drawer-menu-item" href="#about">About</a>
+            </li>
+            <li class="header__list__item">
+              <a class="drawer-menu-item" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="button--primary header__button--primary">SIGN UP</div>
+          <div class="button--secondary header__button--secondary">LOG IN</div>
+        </nav>
+      </a>
     </header>
 
     <main class="main">
@@ -66,7 +68,10 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  <script src="js/jquery.mmenu.all.js"></script>
+  <!-- iScroll -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+<!-- drawer.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
   <script src="js/main.js"></script>
   </body>
 </html>
