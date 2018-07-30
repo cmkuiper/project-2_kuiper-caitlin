@@ -75,15 +75,22 @@
       background-position-x: 37%;
       width: 100%;
       height: 667px;
+      display: flex;
+      align-items: center;
     }
 
     &__section__img {
       width: 50%;
       max-width: 211px;
+      padding: $spacer-lg;
     }
 
     &__section--content {
       text-align: center;
+    }
+
+    &__section__button {
+      margin-bottom: $spacer-lg;
     }
 }
 

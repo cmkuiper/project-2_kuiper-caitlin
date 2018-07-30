@@ -8,8 +8,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 36px;
-  padding-bottom: $spacer-s;
+  padding-bottom: $spacer-lg;
   text-align: center;
+  margin-right: $spacer-lg;
+  margin-left: $spacer-lg;
 }
 
 h2 {
