@@ -16,13 +16,15 @@ h1 {
 
 h2 {
   font-size: 30px;
-  padding:$spacer-s 0;
+  padding-top: $spacer-xxl;
+  padding-bottom: $spacer-xlg;
   text-align: center;
 }
 
 h3 {
   font-size: 26px;
   padding:$spacer-s 0;
+  text-align: center;
 }
 
 h4 {
@@ -44,6 +46,7 @@ p {
   font-family: $secondary-font;
   padding: $spacer-xs 0;
   font-size: 16px;
+  text-align: center;
 }
 
 ol {
@@ -73,6 +76,10 @@ a {
   a {
     font-family: $primary-font;
   }
+}
+
+.card__h2 {
+  margin-top: $spacer-lg;
 }
 
 .chip__text--title {

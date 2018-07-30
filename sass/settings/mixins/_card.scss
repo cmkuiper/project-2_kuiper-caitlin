@@ -1,0 +1,8 @@
+// Cards Mixins Stylesheet
+
+@mixin card($border-color) {
+  border: 3px solid $border-color;
+  width: 380px;
+  height: 220px;
+  margin-bottom: $spacer-xlg;
+}

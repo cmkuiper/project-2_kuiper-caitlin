@@ -1,0 +1,17 @@
+.card--image {
+  width: 75px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  top: 30px;
+  left: 160px;
+}
+
+.card {
+  @include card($green);
+  position: relative;
+
+  &--text {
+    padding: $spacer-lg $spacer-lg 0 $spacer-lg;
+  }
+}
