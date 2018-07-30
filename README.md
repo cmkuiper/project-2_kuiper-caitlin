@@ -16,9 +16,15 @@
 ## Project 2 - Part 3
 
 #### Resources
+- [Stack Overflow](https://stackoverflow.com/questions/3971880/how-to-make-shadow-on-border-bottom): I used this Stack Overflow thread to figure out how to add a border blow to my navigation menu.
+- [Solved By Flexbox](https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/): I used this resource to make a sticky footer.
+- [CSS Tricks](https://css-tricks.com/almanac/properties/z/z-index/): I used this CSS Tricks article to use a z-index for my article elements.
+- [JQuery Drawer](http://git.blivesta.com/drawer/): I used the JQuery Drawer plugin for my hamburger menu.
+
 
 #### Deductions
 I reviewed the list of deductions for this project and in the syllabus.
 
 #### Comments
----
+
+The JQuery Mmenu plugin was just not doing what I wanted it to do, so I switched to the Drawer plugin, which was so much easier!
