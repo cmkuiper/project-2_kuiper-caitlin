@@ -26,24 +26,14 @@
 }
 
 .drawer-menu {
-  margin: 0;
-  padding: 0;
   list-style: none;
   display: block;
+  padding-left: 10px;
+  padding-bottom: 25px;
 }
 
 .drawer-menu-item {
-  font-size: 1rem;
-  display: block;
-  padding: .75rem;
-  text-decoration: none;
-  color: #222;
-}
-
-.drawer-menu-item:hover {
-  text-decoration: underline;
-  color: #555;
-  background-color: transparent;
+  padding: 5px;
 }
 
 /*! overlay */
