@@ -74,8 +74,8 @@
       background-size: cover;
       background-position-x: 37%;
       width: 100%;
-      display: flex;
-      align-items: center;
+      /* display: flex;
+      align-items: center; */
     }
 
     &__section__img {
@@ -94,17 +94,31 @@
     }
 }
 
-.about__article--second{
+.about__article--first {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.about__article--second {
   background-image: linear-gradient(rgba(251,249,249,0.8) 0, rgba(251,249,249,0.8) 100%), url(../images/clothes.jpg);
   background-size: cover;
   background-position-x: 37%;
   width: 100%;
+  text-align: center;
 }
 
 .footer {
   background-color: $green;
-  height: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 
-  &__p {
+  &__logo {
+    width: 50%;
+    max-width: 200px;
+    padding-top: $spacer-xxl;
+    padding-bottom: $spacer-xlg;
   }
 }

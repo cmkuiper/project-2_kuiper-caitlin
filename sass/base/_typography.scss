@@ -45,7 +45,6 @@ h6 {
 
 p {
   font-family: $secondary-font;
-  padding: $spacer-xs 0;
   font-size: 16px;
   text-align: center;
 }
@@ -102,4 +101,51 @@ a {
 .chip__text--description {
   font-family: $secondary-font;
   color: darken($gray, 40%);
+}
+
+.footer {
+
+  p {
+    padding-bottom: $spacer-xlg;
+  }
+  a {
+    color: $white;
+
+    &:hover {
+      color: $gray;
+      transition: .2s;
+    }
+  }
+
+  &__social {
+	  font-size: 30px;
+    padding-bottom: $spacer-xlg;
+
+    a {
+      color: $green;
+
+      &:hover {
+        color: darken($green, 15%);
+        transition: .5s;
+      }
+    }
+  }
+}
+
+.fa {
+  padding: 10px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: $spacer-xs;
+  border-radius: 50%;
+  color: $green;
+}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-pinterest:hover {
+	opacity: 0.9;
+}
+
+.fa-facebook, .fa-instagram, .fa-pinterest {
+	background: $white;
 }
