@@ -109,6 +109,14 @@
   text-align: center;
 }
 
+.short-rule {
+  background-color: $green;
+  height: 3px;
+  width: 60px;
+  margin: auto;
+  margin-bottom: $spacer-s;
+}
+
 .footer {
   background-color: $green;
   display: flex;

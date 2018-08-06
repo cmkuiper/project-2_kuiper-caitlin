@@ -12,6 +12,18 @@
   padding-bottom: $spacer-xs;
 }
 
+.form {
+  margin-right: $spacer-lg;
+  margin-bottom: $spacer-xxl;
+  margin-left: $spacer-lg;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .form__input {
   font-family: $secondary-font;
   background-color: $gray;
@@ -20,7 +32,6 @@
   border: none;
   border-bottom: 2px solid $green;
   padding: $spacer-s;
-  width: 300px;
 }
 
 .form__select {
@@ -32,5 +43,4 @@
   border-bottom: 2px solid $green;
   padding: $spacer-s;
   height: 35px;
-  width: 100px;
 }
