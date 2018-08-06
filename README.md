@@ -13,7 +13,7 @@
 
 ---
 
-## Project 2 - Part 3
+## Project 2
 
 #### Resources
 - [Stack Overflow](https://stackoverflow.com/questions/3971880/how-to-make-shadow-on-border-bottom): I used this Stack Overflow thread to figure out how to add a border blow to my navigation menu.
@@ -27,4 +27,4 @@ I reviewed the list of deductions for this project and in the syllabus.
 
 #### Comments
 
-The JQuery Mmenu plugin was just not doing what I wanted it to do, so I switched to the Drawer plugin, which was so much easier!
+None at this time.
