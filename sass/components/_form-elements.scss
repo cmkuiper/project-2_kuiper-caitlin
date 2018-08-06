@@ -2,10 +2,10 @@
 // ========================================
 
 :focus {
-  outline-color: $green;
+  outline-color: $mint;
 }
 
-.form__label {
+.input__label {
   font-family: $secondary-font;
   color: $green;
   display: block;
@@ -23,20 +23,6 @@
   width: 300px;
 }
 
-.form__item--error {
-  input {
-    border: 2px solid $pink;
-  }
-
-    :focus {
-      outline-color: $pink;
-    }
-}
-
-.form__item--label {
-  color: $pink;
-}
-
 .form__select {
   font-family: $secondary-font;
   background-color: $gray;
@@ -45,6 +31,6 @@
   border: none;
   border-bottom: 2px solid $green;
   padding: $spacer-s;
-  height: 30px;
-  width: 60px;
+  height: 35px;
+  width: 100px;
 }

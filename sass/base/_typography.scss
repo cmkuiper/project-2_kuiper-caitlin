@@ -112,7 +112,7 @@ a {
     color: $white;
 
     &:hover {
-      color: $gray;
+      color: $mint;
       transition: .2s;
     }
   }
@@ -125,7 +125,7 @@ a {
       color: $green;
 
       &:hover {
-        color: darken($green, 15%);
+        color: $mint;
         transition: .5s;
       }
     }
