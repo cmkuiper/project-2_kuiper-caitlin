@@ -103,6 +103,13 @@ a {
   color: darken($gray, 40%);
 }
 
+.contact__p {
+  text-align: left;
+  padding-right: $spacer-lg;
+  padding-bottom: $spacer-lg;
+  padding-left: $spacer-lg;
+}
+
 .footer {
 
   p {
