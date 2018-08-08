@@ -126,7 +126,7 @@
             </div>
             <div class="form__field">
               <label for="method"  class="input__label">How do you like to be contacted?</label>
-              <select name="method" id="method" class="form__select">
+              <select name="method" id="method" class="form__select" required>
                 <option value="phone">Phone</option>
                 <option value="phone">Email</option>
                 <option value="phone">Text</option>
@@ -134,7 +134,7 @@
             </div>
             <div class="form__field">
               <label class="input__label" for="message">Questions & Comments</label>
-              <textarea name="message" id="message" class="form__input form__message" rows="10" ></textarea>
+              <textarea name="message" id="message" class="form__input form__message" rows="10" required></textarea>
             </div>
 
             <!-- Submit Disabled on Javascript-->
@@ -159,6 +159,7 @@
   		</section>
       <p class="text--white">&copy;Caitlin Kuiper, 2018</p>
     </footer>
+
     <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

@@ -94,19 +94,21 @@
     }
 }
 
-.about__article--first {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-bottom: 20px;
-}
+.about__article {
+  &--first {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
 
-.about__article--second {
-  background-image: linear-gradient(rgba(251,249,249,0.8) 0, rgba(251,249,249,0.8) 100%), url(../images/clothes.jpg);
-  background-size: cover;
-  background-position-x: 37%;
-  width: 100%;
-  text-align: center;
+  &--second {
+    background-image: linear-gradient(rgba(251,249,249,0.8) 0, rgba(251,249,249,0.8) 100%), url(../images/clothes.jpg);
+    background-size: cover;
+    background-position-x: 37%;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .short-rule {
