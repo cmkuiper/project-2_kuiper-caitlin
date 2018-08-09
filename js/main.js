@@ -20,4 +20,4 @@ $(function(){
       $('#submit').removeAttr('disabled').addClass('button--primary').removeClass('button--disabled');
     }
   });
-})()
+})

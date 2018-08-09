@@ -1,6 +1,7 @@
 // Button Component Stylesheet
 // ========================================
 .button {
+  @include font-type($secondary-font, normal, 400);
 
   &--primary {
     @include font-type($secondary-font, normal, 400);
@@ -14,10 +15,17 @@
     &:hover {
       @include button(darken($green, 10%), $white);
     }
+
+    &--header {
+      margin-bottom: $spacer-s;
+    }
+
+    &--main {
+      margin-bottom: $spacer-xxl;
+    }
   }
 
   &--secondary {
-    @include font-type($secondary-font, normal, 400);
     @include button--secondary($white, $green, $green);
     height: 46px;
     width: 196px;
@@ -28,15 +36,22 @@
     &:hover {
       @include button--secondary--hover(darken($green, 10%), $white, darken($green, 10%))
     }
+
+    &--header {
+      margin-bottom: $spacer-s;
+    }
   }
 
   &--disabled {
-    @include font-type($secondary-font, normal, 400);
     @include button--disabled($gray, $white);
     height: 46px;
     width: 196px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+  }
+
+  &--form {
+    margin-bottom: $spacer-m;
   }
 }

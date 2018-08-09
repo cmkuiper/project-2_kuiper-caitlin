@@ -26,17 +26,6 @@
    }
  }
 
-  &__button {
-
-    &--primary {
-      margin-bottom: $spacer-s;
-    }
-
-    &--secondary {
-      margin-bottom: $spacer-s;
-    }
-  }
-
  &__list {
    display: flex;
    flex-direction: row;
@@ -71,11 +60,12 @@
 
     &__section--hero {
       background-image: linear-gradient(rgba(251,249,249,0.8) 0, rgba(251,249,249,0.8) 100%), url(../images/shopping.jpg);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
       background-size: cover;
       background-position-x: 37%;
       width: 100%;
-      /* display: flex;
-      align-items: center; */
     }
 
     &__section__img {
@@ -87,10 +77,6 @@
 
     &__section--content {
       text-align: center;
-    }
-
-    &__section__button {
-      margin-bottom: $spacer-xxl;
     }
 }
 
@@ -104,6 +90,9 @@
 
   &--second {
     background-image: linear-gradient(rgba(251,249,249,0.8) 0, rgba(251,249,249,0.8) 100%), url(../images/clothes.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 37%;
     width: 100%;

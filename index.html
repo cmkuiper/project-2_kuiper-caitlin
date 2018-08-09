@@ -35,8 +35,8 @@
             </li>
           </ul>
           <div class="drawer--buttons">
-            <div class="button--primary header__button--primary">SIGN UP</div>
-            <div class="button--secondary header__button--secondary">LOG IN</div>
+            <div class="button--primary button--primary--header">SIGN UP</div>
+            <div class="button--secondary button--secondary--header">LOG IN</div>
           </div>
         </nav>
       </a>
@@ -47,7 +47,7 @@
         <div class="main__section--content">
           <img src="images/app6.png" title="StyleList App" alt="StyleList App" class="main__section__img" />
           <h1>Your Must-have Items In One Place</h1>
-          <div class="button--primary main__section__button">GET THE APP</div>
+          <div class="button--primary button--primary--main">GET THE APP</div>
         </div>
       </section>
 
@@ -98,7 +98,7 @@
           <p class="about__article--second--p">Purchase items directly from your StyleList wish lists or share your wish lists with friends and families.</p>
 
           <h4>Get started today!</h4>
-          <div class="button--primary main__section__button">DOWNLOAD THE APP</div>
+          <div class="button--primary button--primary--main">DOWNLOAD THE APP</div>
 
         </article>
 
@@ -114,19 +114,19 @@
           <form class="form" id="form">
             <div class="form__field">
               <label for="name" class="input__label">Full Name</label>
-              <input type="text" name="name" id="name" class="form__input" required />
+              <input type="text" name="name" id="name" class="form__input"/>
             </div>
             <div class="form__field">
               <label for="phone" class="input__label">Phone</label>
-              <input type="tel" name="phone" id="phone" class="form__input" required />
+              <input type="tel" name="phone" id="phone" class="form__input"/>
             </div>
             <div class="form__field">
               <label for="email" class="input__label">Email</label>
-              <input type="email" name="email" id="email" class="form__input" required />
+              <input type="email" name="email" id="email" class="form__input"/>
             </div>
             <div class="form__field">
               <label for="method"  class="input__label">How do you like to be contacted?</label>
-              <select name="method" id="method" class="form__select" required>
+              <select name="method" id="method" class="form__select">
                 <option value="phone">Phone</option>
                 <option value="phone">Email</option>
                 <option value="phone">Text</option>
@@ -134,14 +134,14 @@
             </div>
             <div class="form__field">
               <label class="input__label" for="message">Questions & Comments</label>
-              <textarea name="message" id="message" class="form__input form__message" rows="10" required></textarea>
+              <textarea name="message" id="message" class="form__input form__message" rows="10"></textarea>
             </div>
 
             <!-- Submit Disabled on Javascript-->
-            <input class="button--disabled" value="SUBMIT" type="submit" id="submit"/>
+            <button type="submit" class="button--disabled button--form" id="submit">SUBMIT</button>
 
             <!-- Reset Button -->
-            <input class="button--secondary" value="RESET" type="reset" id="reset"/>
+            <button type="reset" class="button--secondary" id="reset">CANCEL</button>
 
           </form>
         </article>
