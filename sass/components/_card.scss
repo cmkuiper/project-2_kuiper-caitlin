@@ -10,7 +10,17 @@
   @include card($green);
   position: relative;
 
+  &--white {
+    background-color: $white;
+  }
+
   &--text {
     padding: $spacer-lg $spacer-lg 0 $spacer-lg;
+  }
+
+  &--paragraph {
+    padding-top: $spacer-xxl;
+    padding-right: $spacer-lg;
+    padding-left: $spacer-lg;
   }
 }

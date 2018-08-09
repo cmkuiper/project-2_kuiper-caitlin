@@ -20,6 +20,7 @@
 - [Solved By Flexbox](https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/): I used this resource to make a sticky footer.
 - [CSS Tricks](https://css-tricks.com/almanac/properties/z/z-index/): I used this CSS Tricks article to use a z-index for my article elements.
 - [JQuery Drawer](http://git.blivesta.com/drawer/): I used the JQuery Drawer plugin for my hamburger menu.
+- (https://www.w3schools.com/howto/howto_css_parallax.asp)
 
 
 #### Deductions

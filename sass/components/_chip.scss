@@ -4,10 +4,15 @@
 .chip {
   display: flex;
   align-items: center;
-  border: 2px solid $green;
+  background-color: $white;
+  border: 3px solid $green;
   padding: $spacer-m $spacer-m $spacer-m $spacer-s;
   height: 40px;
   width: 225px;
+  z-index: 2;
+  position: relative;
+  bottom: 80px;
+  left: 60px;
 
   &__avatar {
     width: 50px;
@@ -16,16 +21,7 @@
     display: inline-flex;
   }
 
-  &__text-container {
-    display: inline-flex;
-    flex-direction: column;
+  &__text--title, &__text--description {
+    padding-left: $spacer-m;
   }
-
-    &__text--title {
-      padding-left: $spacer-m;
-    }
-
-    &__text--description {
-      padding-left: $spacer-m;
-    }
 }
