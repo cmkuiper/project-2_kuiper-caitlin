@@ -1,6 +1,27 @@
-// Hamburger Menu
+// Hamburger Menu and Owl Slider
 $(document).ready(function() {
   $('.drawer').drawer();
+
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        675:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:false,
+            loop:false
+        }
+      }
+    })
 });
 
 //Disabled Button
@@ -21,3 +42,17 @@ $(function(){
     }
   });
 })
+
+//POPOVER
+var $popoverTrigger = $('.popover__trigger'),
+    $popover = $('.popover'),
+    $popoverContainer = $('.popover__container'),
+    popoverActive = 'popover--active';
+
+$popoverTrigger.on('click', function(e) {
+  e.preventDefault();
+
+  console.log('hey');
+  // $(this).toggleClass(popoverActive);
+  $(this).parent($popoverContainer).find($popover).toggleClass(popoverActive);
+});

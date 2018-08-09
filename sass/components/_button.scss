@@ -4,13 +4,13 @@
   @include font-type($secondary-font, normal, 400);
 
   &--primary {
-    @include font-type($secondary-font, normal, 400);
     @include button($green, $white);
     height: 50px;
     width: 200px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border-style: none;
 
     &:hover {
       @include button(darken($green, 10%), $white);
@@ -27,8 +27,8 @@
 
   &--secondary {
     @include button--secondary($white, $green, $green);
-    height: 46px;
-    width: 196px;
+    height: 50px;
+    width: 200px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -44,11 +44,12 @@
 
   &--disabled {
     @include button--disabled($gray, $white);
-    height: 46px;
-    width: 196px;
+    height: 50px;
+    width: 200px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border-style: none;
   }
 
   &--form {

@@ -1,0 +1,11 @@
+.popover {
+  padding: $spacer-m;
+  background-color: $grey;
+  visibility: hidden;
+  opacity: 0;
+
+  &--active {
+    visibility: visible;
+    opacity: 1;
+  }
+}

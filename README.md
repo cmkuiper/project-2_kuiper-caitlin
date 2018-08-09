@@ -21,6 +21,7 @@
 - [CSS Tricks](https://css-tricks.com/almanac/properties/z/z-index/): I used this CSS Tricks article to use a z-index for my article elements.
 - [JQuery Drawer](http://git.blivesta.com/drawer/): I used the JQuery Drawer plugin for my hamburger menu.
 - (https://www.w3schools.com/howto/howto_css_parallax.asp)
+- (https://owlcarousel2.github.io/OwlCarousel2/)
 
 
 #### Deductions

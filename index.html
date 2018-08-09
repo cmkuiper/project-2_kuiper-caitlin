@@ -19,6 +19,10 @@
     <header class="header" id="home">
       <a href="index.html"><img src="images/logo2.png" title="StyleList" alt="StyleList" class="header__logo" /></a>
 
+      <div class="popover__container">
+        <a href="#" class="popover_trigger"><button class="button--secondary button--secondary--header">LOG IN</button></a>
+      </div>
+
       <button type="button" class="drawer-toggle drawer-hamburger">
         <span class="sr-only">toggle navigation</span>
         <span class="drawer-hamburger-icon"></span>
@@ -37,8 +41,7 @@
             </li>
           </ul>
           <div class="drawer--buttons">
-            <div class="button--primary button--primary--header">SIGN UP</div>
-            <div class="button--secondary button--secondary--header">LOG IN</div>
+            <button class="button--primary button--primary--header">SIGN UP</button>
           </div>
         </nav>
       </a>
@@ -49,7 +52,7 @@
         <div class="main__section--content">
           <img src="images/app6.png" title="StyleList App" alt="StyleList App" class="main__section__img" />
           <h1>Your Must-have Items In One Place</h1>
-          <div class="button--primary button--primary--main">GET THE APP</div>
+          <button class="button--primary button--primary--main">GET THE APP</button>
         </div>
       </section>
 
@@ -100,71 +103,82 @@
           <p class="about__article--second--p">Purchase items directly from your StyleList wish lists or share your wish lists with friends and families.</p>
 
           <h4>Get started today!</h4>
-          <div class="button--primary button--primary--main">DOWNLOAD THE APP</div>
+          <button class="button--primary button--primary--main">DOWNLOAD THE APP</button>
 
         </article>
 
-        <article class="background--gray">
+        <article class="about__article--third background--gray">
           <h2>Why Users Love StyleList</h2>
-          <div  class="card card--white">
-            <p class="card--paragraph">"With StyleList, I can shop my favorite online brands without feeling the pressure to buy right then and there. StyleList also makes sure I get the best deal on items!"</p>
-          </div>
-          <div class="chip">
-            <img src="images/avatar.png" alt="Avatar" title="Avatar" class="chip__avatar" />
-            <div>
-              <div class="chip__text--title">
-                Erin Smith
+          <div class="owl-carousel owl-theme">
+            <div class="testimonial">
+              <div  class="card card--white">
+                <p class="card--paragraph">"With StyleList, I can shop my favorite online brands without feeling the pressure to buy right then and there. StyleList also makes sure I get the best deal on items!"</p>
               </div>
-              <div class="chip__text--description">
-                Member since 2017
+              <div class="chip">
+                <img src="images/avatar.png" alt="Avatar" title="Avatar" class="chip__avatar" />
+                <div>
+                  <div class="chip__text--title">
+                    Erin Smith
+                  </div>
+                  <div class="chip__text--description">
+                    Member since 2017
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial">
+              <div  class="card card--white">
+                <p class="card--paragraph">"I love being able to add items to my wishlist as I go and then share my list with friends and family. It makes Christmas shopping much easier."</p>
+              </div>
+              <div class="chip">
+                <img src="images/kensie.png" alt="Avatar" title="Avatar" class="chip__avatar" />
+                <div>
+                  <div class="chip__text--title">
+                    Kensie Downey
+                  </div>
+                  <div class="chip__text--description">
+                    Member since 2016
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial">
+              <div  class="card card--white">
+                <p class="card--paragraph">"Shopping online is so much easier with StyleList! I don't have to try to keep track of my favorite items because the app does it for me."</p>
+              </div>
+              <div class="chip">
+                <img src="images/sarah.png" alt="Avatar" title="Avatar" class="chip__avatar" />
+                <div>
+                  <div class="chip__text--title">
+                    Sarah Gierhan
+                  </div>
+                  <div class="chip__text--description">
+                    Member since 2018
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial">
+              <div  class="card card--white">
+                <p class="card--paragraph">"Thanks to StyleList, I can stay updated on fashion trends and see where other women like me are shopping and what they're buying."</p>
+              </div>
+              <div class="chip">
+                <img src="images/allison.png" alt="Avatar" title="Avatar" class="chip__avatar" />
+                <div>
+                  <div class="chip__text--title">
+                    Allison Stark
+                  </div>
+                  <div class="chip__text--description">
+                    Member since 2017
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div  class="card card--white">
-            <p class="card--paragraph">"I love being able to add items to my wishlist as I go and then share my list with friends and family. It makes Christmas shopping much easier."</p>
-          </div>
-          <div class="chip">
-            <img src="images/kensie.png" alt="Avatar" title="Avatar" class="chip__avatar" />
-            <div>
-              <div class="chip__text--title">
-                Kensie Downey
-              </div>
-              <div class="chip__text--description">
-                Member since 2016
-              </div>
-            </div>
-          </div>
-
-          <div  class="card card--white">
-            <p class="card--paragraph">"Shopping online is so much easier with StyleList! I don't have to try to keep track of my favorite items because the app does it for me."</p>
-          </div>
-          <div class="chip">
-            <img src="images/sarah.png" alt="Avatar" title="Avatar" class="chip__avatar" />
-            <div>
-              <div class="chip__text--title">
-                Sarah Gierhan
-              </div>
-              <div class="chip__text--description">
-                Member since 2018
-              </div>
-            </div>
-          </div>
-
-          <div  class="card card--white">
-            <p class="card--paragraph">"Thanks to StyleList, I can stay updated on fashion trends and see where other women like me are shopping and what they're buying."</p>
-          </div>
-          <div class="chip">
-            <img src="images/allison.png" alt="Avatar" title="Avatar" class="chip__avatar" />
-            <div>
-              <div class="chip__text--title">
-                Allison Stark
-              </div>
-              <div class="chip__text--description">
-                Member since 2017
-              </div>
-            </div>
-          </div>
         </article>
       </section>
 
