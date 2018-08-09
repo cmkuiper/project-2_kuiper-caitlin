@@ -8,7 +8,7 @@
 
 @mixin button--hover ($background-value) {
   background-color: $background-value;
-  transition: .2s;
+  transition: .5s;
 }
 
 @mixin button--secondary ($background-value, $color-value, $border-color) {
