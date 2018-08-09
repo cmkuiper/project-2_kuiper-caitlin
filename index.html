@@ -19,8 +19,18 @@
     <header class="header" id="home">
       <a href="index.html"><img src="images/logo2.png" title="StyleList" alt="StyleList" class="header__logo" /></a>
 
-      <div class="popover__container">
-        <a href="#" class="popover_trigger"><button class="button--secondary button--secondary--header">LOG IN</button></a>
+      <div class="button--secondary modal__rigger-btn">
+        LOG IN
+      </div>
+      <div class="modal" aria-hidden="true">
+        <div class="modal__container modal__content">
+          <img src="images/close.png" alt="Close Icon" class="modal__close"/>
+          <img src="images/checkbox.png" alt="Checkbox" title="Checkbox" class="modal__img"/>
+          <h2>Start Shopping</h2>
+          <p>By clicking log in, you agree to our Terms, Privacy Policy and Cookie Policy.</p>
+          <button class="button--primary">LOG IN WITH FACEBOOK</button>
+          <button class="button--secondary">LOG IN WITH EMAIL</button>
+        </div>
       </div>
 
       <button type="button" class="drawer-toggle drawer-hamburger">

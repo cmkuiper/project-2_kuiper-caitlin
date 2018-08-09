@@ -1,0 +1,32 @@
+.modal {
+  position: relative;
+  width: 100%;
+
+  &__container {
+    background-color: $gray;
+    padding: $spacer-m;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  /* &__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: $spacer-xxl auto;
+  padding: $spacer-m;
+  width: 80%;
+} */
+
+  &__img {
+    width: 100px;
+  }
+
+  &--active {
+
+    .modal__container {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}

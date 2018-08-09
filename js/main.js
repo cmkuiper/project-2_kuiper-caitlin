@@ -43,16 +43,21 @@ $(function(){
   });
 })
 
-//POPOVER
-var $popoverTrigger = $('.popover__trigger'),
-    $popover = $('.popover'),
-    $popoverContainer = $('.popover__container'),
-    popoverActive = 'popover--active';
+//MODAl
+var $modalTrigger = $('.modal__trigger-btn'),
+  $modalContainer = $('.modal__container'),
+  $modalClose = $('.modal__close'),
+  $modalActive = 'modal--active';
 
-$popoverTrigger.on('click', function(e) {
+$modalTrigger.on('click', function(e) {
   e.preventDefault();
 
-  console.log('hey');
-  // $(this).toggleClass(popoverActive);
-  $(this).parent($popoverContainer).find($popover).toggleClass(popoverActive);
+  $($modalContainer).addClass($modalActive);
+  $modalContainer.attr('aria-hidden', 'false');
+});
+
+$modalClose.on('click', function(e) {
+  e.preventDefault();
+
+  $($modalContainer).removeClass($modalActive);
 });
