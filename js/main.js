@@ -1,4 +1,4 @@
-// Hamburger Menu and Owl Slider
+// JQuery Plugins: Hamburger Menu and Owl Slider
 $(document).ready(function() {
   $('.drawer').drawer();
 
@@ -47,7 +47,7 @@ $(function(){
   });
 });
 
-//MODAL
+//Log In Modal in Navigation
 var $modalTrigger = $('.modal__trigger-btn'),
   $modalContainer = $('.modal__container'),
   $modalClose = $('.modal__close'),
