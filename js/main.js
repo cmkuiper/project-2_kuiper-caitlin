@@ -24,7 +24,7 @@ $(document).ready(function() {
     })
 });
 
-//Disabled Button
+//Disabled Button on Contact Form
 $(function(){
   $('.input').keyup(function() {
 
@@ -36,14 +36,18 @@ $(function(){
     });
 
     if (empty) {
-      $('#submit').attr('disabled', 'disabled').hasClass('.button--disabled').removeClass('button--primary');
+      $('#submit').attr('disabled', 'disabled');
     } else {
       $('#submit').removeAttr('disabled').addClass('button--primary').removeClass('button--disabled');
     }
   });
-})
 
-//MODAl
+  $('#reset').click(function() {
+    $('#submit').attr('disabled', true).addClass('button--disabled').removeClass('button--primary');
+  });
+});
+
+//MODAL
 var $modalTrigger = $('.modal__trigger-btn'),
   $modalContainer = $('.modal__container'),
   $modalClose = $('.modal__close'),
