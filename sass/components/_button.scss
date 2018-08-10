@@ -12,16 +12,16 @@
     justify-content: center;
     border-style: none;
 
-    &:hover {
-      @include button(darken($green, 10%), $white);
-    }
-
     &--header {
       margin-bottom: $spacer-s;
     }
 
     &--main {
       margin-bottom: $spacer-xxl;
+    }
+
+    &:hover {
+      @include button(darken($green, 10%), $white);
     }
   }
 
@@ -33,12 +33,12 @@
     align-items: center;
     justify-content: center;
 
-    &:hover {
-      @include button--secondary--hover(darken($green, 10%), $white, darken($green, 10%))
-    }
-
     &--header {
       margin-bottom: $spacer-s;
+    }
+
+    &:hover {
+      @include button--secondary--hover(darken($green, 10%), $white, darken($green, 10%))
     }
   }
 
@@ -54,5 +54,14 @@
 
   &--form {
     margin-bottom: $spacer-m;
+  }
+
+  &__modal {
+    height: 40px;
+    width: 25%;
+    max-width: 200px;
+    margin-right: 80px;
+    float: right;
+    margin-top: $spacer-m;
   }
 }

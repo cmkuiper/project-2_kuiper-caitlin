@@ -1,32 +1,53 @@
 .modal {
-  position: relative;
+  position: absolute;
   width: 100%;
 
   &__container {
-    background-color: $gray;
+    background-color: lighten($gray, 15%);
+    border: 3px solid $mint;
     padding: $spacer-m;
+    width: 80%;
     visibility: hidden;
     opacity: 0;
+    margin: auto;
+    margin-top: $spacer-xxl;
+    padding-bottom: $spacer-xxl;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
-  /* &__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin: $spacer-xxl auto;
-  padding: $spacer-m;
-  width: 80%;
-} */
+  &__close {
+    align-self: flex-end;
+    width: 15px;
+    padding: 4px;
+    border: 1px solid $mint;
+    border-radius: 50%;
+    float: right;
+  }
 
   &__img {
-    width: 100px;
+    width: 50px;
+    padding-bottom: $spacer-m;
+  }
+
+  &__header {
+    padding-bottom: $spacer-lg;
+  }
+
+  &__p {
+    font-size: 14px;
+    padding-bottom: $spacer-m;
+    width: 80%;
+  }
+
+  &__button {
+    text-align: center;
+    margin-top: $spacer-m;
   }
 
   &--active {
-
-    .modal__container {
       opacity: 1;
       visibility: visible;
-    }
   }
 }

@@ -19,17 +19,15 @@
     <header class="header" id="home">
       <a href="index.html"><img src="images/logo2.png" title="StyleList" alt="StyleList" class="header__logo" /></a>
 
-      <div class="button--secondary modal__rigger-btn">
-        LOG IN
-      </div>
+      <button class="button--secondary button__modal header__button modal__trigger-btn">LOG IN</button>
       <div class="modal" aria-hidden="true">
-        <div class="modal__container modal__content">
-          <img src="images/close.png" alt="Close Icon" class="modal__close"/>
-          <img src="images/checkbox.png" alt="Checkbox" title="Checkbox" class="modal__img"/>
-          <h2>Start Shopping</h2>
-          <p>By clicking log in, you agree to our Terms, Privacy Policy and Cookie Policy.</p>
-          <button class="button--primary">LOG IN WITH FACEBOOK</button>
-          <button class="button--secondary">LOG IN WITH EMAIL</button>
+        <div class="modal__container">
+          <img src="images/close.png" alt="close" class="modal__close"/>
+          <img src="images/checkbox.png" class="modal__img" alt="Modal Icon"  />
+          <h3 class="modal__header">Start Shopping</h3>
+          <p class="modal__p">By clicking log in, you agree to our Terms, Privacy Policy and Cookie Policy.</p>
+          <button class="button--primary modal__button">LOG IN WITH FACEBOOK</button>
+          <button class="button--secondary modal__button">LOG IN WITH EMAIL</button>
         </div>
       </div>
 
