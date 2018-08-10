@@ -12,6 +12,11 @@ h1 {
   text-align: center;
   margin-right: $spacer-lg;
   margin-left: $spacer-lg;
+
+  @include media($medium) {
+    margin-right: $spacer-xxl;
+    margin-left: $spacer-xxl;
+  }
 }
 
 h2 {

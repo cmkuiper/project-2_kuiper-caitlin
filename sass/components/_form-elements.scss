@@ -15,6 +15,11 @@
     flex-direction: column;
     width: 100%;
     padding-top: $spacer-m;
+
+    @include media($large) {
+      width: 50%;
+      margin: auto;
+    }
   }
 
   &__input {
@@ -40,6 +45,12 @@
 
   &__message {
     margin-bottom: $spacer-lg;
+  }
+
+  &__buttons {
+    @include media($large) {
+      text-align: center;
+    }
   }
 }
 

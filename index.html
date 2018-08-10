@@ -67,49 +67,55 @@
       <section id="about">
         <article class="about__article about__article--first">
           <h2>One Wish List for Every Online Clothing Store</h2>
-
-          <div>
-            <img src="images/checkbox.png" class="card--image" alt="Checkbox" title="Checkbox"  />
-            <div class="card">
-              <h3 class="card--text card__h2">Save Your Favorites</h3>
-              <p class="card--text">Shop at any online store, and save your favorite items in one place with a few simple clicks.</p>
+          <div class="first--content">
+            <div class="margin-card">
+              <img src="images/checkbox.png" class="card--image" alt="Checkbox" title="Checkbox"  />
+              <div class="card">
+                <h3 class="card--text card__h2">Save Your Favorites</h3>
+                <p class="card--text">Shop at any online store, and save your favorite items in one place with a few simple clicks.</p>
+              </div>
             </div>
-          </div>
 
-          <div>
-            <img src="images/checkbox.png" class="card--image" alt="Checkbox" title="Checkbox"  />
-            <div class="card">
-              <h3 class="card--text card__h2">Get the Best Deal</h3>
-              <p class="card--text">Receive alerts when items on your wish lists change in price or are out of stock.</p>
+            <div class="margin-card">
+              <img src="images/checkbox.png" class="card--image" alt="Checkbox" title="Checkbox"  />
+              <div class="card">
+                <h3 class="card--text card__h2">Get the Best Deal</h3>
+                <p class="card--text">Receive alerts when items on your wish lists change in price or are out of stock.</p>
+              </div>
             </div>
-          </div>
 
-          <div>
-            <img src="images/checkbox.png" class="card--image" alt="Checkbox" title="Checkbox"  />
-            <div class="card">
-              <h3 class="card--text card__h2">Stay On Trend</h3>
-              <p class="card--text">Browse and shop trending items from other StyleList users.</p>
+            <div class="margin-card">
+              <img src="images/checkbox.png" class="card--image" alt="Checkbox" title="Checkbox"  />
+              <div class="card">
+                <h3 class="card--text card__h2">Stay On Trend</h3>
+                <p class="card--text">Browse and shop trending items from other StyleList users.</p>
+              </div>
             </div>
           </div>
         </article>
 
         <article class="about__article about__article--second">
           <h2>How It Works</h2>
-          <h2 class="about__article--second--h2">1</h2>
-          <div class="short-rule"></div>
-          <h4>Download & Shop</h4>
-          <p class="about__article--second--p">Download the app on your iOS or Android device. Then, start shopping at any of your favorite online clothing stores.</p>
-
-          <h2 class="about__article--second--h2">2</h2>
-          <div class="short-rule"></div>
-          <h4>Save Your Favorites</h4>
-          <p class="about__article--second--p">Once you've found a must-have item, save it to StyleList. Organize your items into different wish lists for easier shopping.</p>
-
-          <h2 class="about__article--second--h2">3</h2>
-          <div class="short-rule"></div>
-          <h4>Share & Buy</h4>
-          <p class="about__article--second--p">Purchase items directly from your StyleList wish lists or share your wish lists with friends and families.</p>
-
+          <div class="how-content">
+            <div class="how-item">
+              <h2 class="about__article--second--h2">1</h2>
+              <div class="short-rule"></div>
+              <h4>Download & Shop</h4>
+              <p class="about__article--second--p">Download the app on your iOS or Android device. Then, start shopping at any of your favorite online clothing stores.</p>
+            </div>
+            <div class="how-item">
+              <h2 class="about__article--second--h2">2</h2>
+              <div class="short-rule"></div>
+              <h4>Save Your Favorites</h4>
+              <p class="about__article--second--p">Once you've found a must-have item, save it to StyleList. Organize your items into different wish lists for easier shopping.</p>
+            </div>
+            <div class="how--item">
+              <h2 class="about__article--second--h2">3</h2>
+              <div class="short-rule"></div>
+              <h4>Share & Buy</h4>
+              <p class="about__article--second--p">Purchase items directly from your StyleList wish lists or share your wish lists with friends and families.</p>
+            </div>
+          </div>
           <h4>Get started today!</h4>
           <button class="button--primary button--primary--main">DOWNLOAD THE APP</button>
 
@@ -117,7 +123,7 @@
 
         <article class="about__article--third background--gray">
           <h2>Why Users Love StyleList</h2>
-          <div class="owl-carousel owl-theme">
+          <div class="owl-carousel owl-theme owl-item">
             <div class="testimonial">
               <div  class="card card--white">
                 <p class="card--paragraph">"With StyleList, I can shop my favorite online brands without feeling the pressure to buy right then and there. StyleList also makes sure I get the best deal on items!"</p>
@@ -220,12 +226,10 @@
               <textarea name="message" id="message" class="input form__input form__message" rows="10"></textarea>
             </div>
 
-            <!-- Submit Disabled on Javascript-->
-            <button type="submit" class="button--disabled button--form" id="submit">SUBMIT</button>
-
-            <!-- Reset Button -->
-            <button type="reset" class="button--secondary" id="reset">CANCEL</button>
-
+            <div class="form__buttons">
+              <button type="submit" class="button--disabled button--form" id="submit">SUBMIT</button>
+              <button type="reset" class="button--secondary" id="reset">CANCEL</button>
+            </div>
           </form>
         </article>
       </section>

@@ -3,7 +3,10 @@
 @mixin button($background-value, $color-value) {
   background-color: $background-value;
   color: $color-value;
+  font-family: $secondary-font;
+  font-size: 16px;
   cursor: pointer;
+  outline: none;
 }
 
 @mixin button--hover ($background-value) {

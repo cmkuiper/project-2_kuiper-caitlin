@@ -9,12 +9,8 @@
 }
 
 .header {
-  /*display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;*/
   box-shadow:0px .5px 12px $gray;
-  height: 75px;
+  height: 85px;
 
  &__logo {
    width: 40%;
@@ -26,37 +22,24 @@
    &--menu {
      width: 80%;
      margin-top: $spacer-xxl;
+     padding-left: $spacer-m;
    }
 
   &__button {
     justify-content: center;
   }
-
  }
 
  &__list {
    display: flex;
    flex-direction: row;
    justify-content: space-around;
-
-   @include media($medium) {
-     margin-right: $spacer-s;
-   }
-
-   @include media($large) {
-     margin-right: $spacer-m;
-   }
  }
 
  &__list__item {
    padding: $spacer-m;
  }
 
- @include media($medium) {
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
- }
 }
 
 .drawer--buttons {
@@ -74,6 +57,7 @@
       background-size: cover;
       background-position-x: 37%;
       width: 100%;
+      display: grid;
     }
 
     &__section__img {
@@ -81,6 +65,11 @@
       max-width: 211px;
       padding-top: $spacer-xxl;
       padding-bottom: $spacer-lg;
+
+      @include media($large) {
+
+      }
+
     }
 
     &__section--content {
@@ -89,6 +78,7 @@
 }
 
 .about__article {
+
   &--first {
     display: flex;
     align-items: center;
@@ -103,9 +93,45 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 37%;
+    background-position-y: -3%;
     width: 100%;
     text-align: center;
   }
+}
+
+.first--content {
+  @include media($large) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.margin-card {
+  @include media($large) {
+    margin-left: $spacer-s;
+    margin-right: $spacer-s;
+  }
+}
+
+.how-content {
+  @include media($large) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.how-item {
+  @include media($large) {
+    width: 50%;
+  }
+}
+
+.owl-item {
+    display: inline-flex;
+}
+
+.testimonial {
+    margin: auto;
 }
 
 .short-rule {
@@ -114,6 +140,13 @@
   width: 60px;
   margin: auto;
   margin-bottom: $spacer-s;
+}
+
+.contact__p {
+  @include media($large) {
+    width: 80%;
+    margin: auto;
+  }
 }
 
 .footer {

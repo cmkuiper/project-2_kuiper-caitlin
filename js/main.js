@@ -15,7 +15,7 @@ $(document).ready(function() {
             items:2,
             nav:false
         },
-        1000:{
+        999:{
             items:3,
             nav:false,
             loop:false
