@@ -5,7 +5,9 @@
 
 #### Link to website
 [Website Link](http://www.caitlinkuiper.com/advweb2_project2)
-<!-- Edit this for Project 2 - Part 3 -->
+
+####Link to W3C's Validator
+[W3C Validator Link]()
 
 #### Instructions on how to view
 1. `git clone` the repository to view it locally.
